@@ -19,7 +19,7 @@ function NavBar({ setUser, user }) {
   return (
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 <Container>
-  <Navbar.Brand style={{fontWeight:"700"}}  to ="/">MY YOGA ZONE</Navbar.Brand>
+  <Navbar.Brand style={{fontWeight:"700"}}  to ="/">HOMEFIT</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
