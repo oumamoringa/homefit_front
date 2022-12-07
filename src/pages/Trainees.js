@@ -23,7 +23,7 @@ function Trainees() {
   <>
     <Card style={{padding:"20px",border:"2px solid #8A2BE2",borderRadius:"0px",backgroundColor:"#e7e1fa",color:"#000",margin:"10px"}}>
       <h5 className="font-weight-bold"> <FaUser /> {trainee.name} </h5>
-      <h6><FaEnvelope /> {trainee.email}   &nbsp; &nbsp; | <span> <FaMap /> Umoja III</span></h6>
+      <h6><FaEnvelope /> {trainee.email}   &nbsp; &nbsp; | <span> <FaMap /> Jamhuri Phase1</span></h6>
       </Card>
 
   </>
@@ -31,7 +31,7 @@ function Trainees() {
 
   <div className={'alert alert-primary rounded-0'}>No registered trainees</div>
 
-   )};
+   )}
     
   </div>
   </>
