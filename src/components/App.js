@@ -2,6 +2,7 @@ import React from 'react';
 // import 'bootstrap/dist/css/bootstrap/Container'
 import Login from './LoginForm';
 import SignUpForm from './SignUpForm';
+import Footer from './Footer';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
         <Login/>
         <SignUpForm/>
+        <Footer/>
 
 
     </div>
