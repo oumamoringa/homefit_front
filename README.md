@@ -6,7 +6,7 @@ Clone it here
 
 ### ```npm install```
 
-Start your rails server
+Start your rails server on the backed side
 
 ### `npm start`
 
@@ -23,7 +23,8 @@ SIGNUP PAGE ![Signup page](./src/images/signuppage.png)
 
 TRAINERS  ![Trainers](./src/images/Trainers_page.png)
 ADD TUTORIALS  ![Add Yoga Tutorials](./src//images/Tutorials-page.png)
-### Project Technologies
+Project Technologies
+---
 Frontend
 ---
 + HTML
