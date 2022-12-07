@@ -29,6 +29,7 @@ Frontend
 ---
 + HTML
 + CSS
++ Bootstrap
 + React js
 
 Backend
