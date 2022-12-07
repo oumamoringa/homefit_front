@@ -18,11 +18,11 @@ You may also see any lint errors in the console.
 
 ### Screenshots
 
-LOGIN PAGE  ![Login Page](./images/loginpage.png)
-SIGNUP PAGE ![Signup page](./images/signuppage.png)
+LOGIN PAGE  ![Login Page](./src/images/loginpage.png)
+SIGNUP PAGE ![Signup page](./src/images/signuppage.png)
 
-TRAINERS  ![Trainers](./images/Trainers_page.png)
-ADD TUTORIALS  ![Add Yoga Tutorials](./images/Tutorials-page.png)
+TRAINERS  ![Trainers](./src/images/Trainers_page.png)
+ADD TUTORIALS  ![Add Yoga Tutorials](./src//images/Tutorials-page.png)
 ### Project Technologies
 Frontend
 ---
