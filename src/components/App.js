@@ -3,6 +3,7 @@ import React from 'react';
 import Login from './LoginForm';
 import SignUpForm from './SignUpForm';
 import Footer from './Footer';
+import NavBar from './NavaBar';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Login/>
         <SignUpForm/>
         <Footer/>
+        <NavBar/>
 
 
     </div>
