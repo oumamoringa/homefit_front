@@ -29,7 +29,7 @@ function Trainees() {
   </>
        ))):(
 
-  <div className={'alert alert-primary rounded-0'}>No registered trainees</div>
+  <div className={'alert alert-primary rounded-0'}>No registered Trainees</div>
 
    )}
     
