@@ -1,6 +1,6 @@
-import {React,useState } from 'react';
-import { useHistory } from 'react-router-dom';
-import { FaUser,FaEnvelope,FaMap } from 'react-icons/fa';
+import React from 'react';
+// import { useHistory } from 'react-router-dom';
+import { FaUser} from 'react-icons/fa';
 
 function Profile({user}) {
   return (

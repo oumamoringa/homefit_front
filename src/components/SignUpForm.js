@@ -9,7 +9,7 @@ const [name, setName] = useState("");
 const [password, setPassword] = useState("");
 const [password_confirmation, setConfirmPassword] = useState("");
 const [errors, setErrors] = useState([]);
-const [success, setSuccess] = useState([]);
+const [success] = useState([]);
 
 const [isLoading, setIsLoading] = useState(false);
 

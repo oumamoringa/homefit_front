@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import "../App.css"
-import Trainers from './Trainers';
+// import Trainers from './Trainers';
 
 function  NewTutorial ({user,trainers}) {
     const [name, setName] = useState("");

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import {Card,Container,Button} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 function YogaTutorials (user){
   
 const [tutorials, setTutorials] = useState([]);

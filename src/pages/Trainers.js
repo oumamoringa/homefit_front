@@ -1,5 +1,7 @@
-import { useState,useEffect } from 'react';
-import { Container,Card } from 'react-bootstrap';
+import React from 'react';
+
+// import { useState,useEffect } from 'react';
+// import { Container,Card } from 'react-bootstrap';
 // import { useHistory } from 'react-router-dom';
 
 function Trainers({trainers}) {
