@@ -6,7 +6,7 @@ Clone it here
 
 ### ```npm install```
 
-Start your rails server
+Start your rails server on the backed side
 
 ### `npm start`
 
