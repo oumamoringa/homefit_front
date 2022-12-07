@@ -18,7 +18,7 @@ function NavBar({ setUser, user }) {
 
   return (
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-{/* <Container>
+<Container>
   <Navbar.Brand style={{fontWeight:"700"}}  to ="/">MY YOGA ZONE</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -35,8 +35,7 @@ function NavBar({ setUser, user }) {
       <Nav.Link ><Button onClick={handleLogoutClick}>LOGOUT</Button></Nav.Link>
        </Nav>
   </Navbar.Collapse>
-</Container> */}
-<h3>Navbar</h3>
+</Container>
 </Navbar>
   );
 }
