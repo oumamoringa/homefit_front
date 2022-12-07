@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+body{
+
+  background: url("https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=499&q=80");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* .login-card{
+width: 100%; 
+height: 60em;
+margin: 0 ;
+top: 0;
+margin-top: 10px; 
+padding: 5px;
+
+
+} */
+
+.login-card .card{
+  /* width: 40%; */
+  margin: auto;
+  margin-top: 50px;
+
+}
+/* .login-container .card button{
+margin-right:40em;
+margin-left: 50px;
+
+} */
+
+.login-card .card input{
+ border-radius: 25px;
+border:1px solid rgb(104, 47, 238);
+}
+.login-card .card input:focus{
+  border-radius: 25px;
+ border:1px solid rgb(104, 47, 238);
+ box-shadow: none;
+ }
+ .login-card .card button{
+  color: #ffff;
+  border-radius: 25px;
+ background: rgb(104, 47, 238);
+ box-shadow: none;
+ width:8em;
+ margin-right: 15px;
+ }
+
+ .form-control {
+  border:1px solid rgb(201, 158, 245);
+  border-radius: 25px;
+  
+ }
+ .form-control:focus {
+  border:1px solid blueviolet;
+  box-shadow: none;
+ }
+ .save-button{
+  margin: auto;
+align-self: baseline;
+color: #ffff;
+width: 40%;
+height: 2.2em;
+background: blueviolet;
+border-radius: 25px;
+border: none;
+font-weight: 700;
+
+ }
+ .Background {
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(185, 75%, 39%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ProfileCard {
+  width: 350px;
+  border-radius: 20px !important;
+  border: none !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ProfileCardBody {
+  padding-top: 3.5rem !important;
+  padding-bottom: 2rem !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ProfileCardBackgroundImage {
+  width: 350px;
+  height: 140px;
+  border-top-left-radius: 15px  !important;
+  border-top-right-radius: 15px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.ProfileCardImage {
+  width: 96px !important;
+  height: 96px !important;
+  margin: auto;
+  position: absolute;
+  top: 84px;
+  left: 127px;
+  border: 5px white solid;
+  border-radius: 48px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.TextMuted {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+.TextBold {
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.CardFooter {
+  background-color: white !important;
+  border-bottom-left-radius: 15px  !important;
+  border-bottom-right-radius: 15px !important;
+}
+
+.FooterP {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
 }
