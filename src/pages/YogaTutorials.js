@@ -9,7 +9,7 @@ const [success, setSuccess] = useState([]);
 const [errors, setErrors] = useState([]);
 
 useEffect(() => {
-  fetch("/tutorials")
+  fetch("https://homefitback-production-9d5d.up.railway.app/tutorials")
       .then((r) => r.json())
       .then(setTutorials);
   }, []);

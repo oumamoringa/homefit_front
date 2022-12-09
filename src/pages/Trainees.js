@@ -8,7 +8,7 @@ function Trainees() {
     const [trainees, setTrainees] = useState([]);
     
       useEffect(() => {
-      fetch("/trainees")
+      fetch("https://homefitback-production-9d5d.up.railway.app/trainees")
           .then((r) => r.json())
           .then(setTrainees);
         }, []);

@@ -18,7 +18,7 @@ const [isLoading, setIsLoading] = useState(false);
     setErrors([]);
     setIsLoading(true);
 
-    fetch("/signup", {
+    fetch("https://homefitback-production-9d5d.up.railway.app/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

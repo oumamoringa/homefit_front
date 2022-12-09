@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     // auto-login
-    fetch("/me").then((r) => {
+    fetch("https://homefitback-production-9d5d.up.railway.app/me").then((r) => {
       if (r.ok) {
         r.json().then((user) => setUser(user));
       }
@@ -44,7 +44,7 @@ function App() {
     //   .then((r) => r.json())
     //   .then( (trainers)=>setTrainers);
 
-      fetch("/trainers").then((r) => {
+      fetch("https://homefitback-production-9d5d.up.railway.app/trainers").then((r) => {
         if (r.ok) {
           r.json().then((trainers) => setTrainers(trainers));
         }

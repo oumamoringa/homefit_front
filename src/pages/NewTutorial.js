@@ -15,7 +15,7 @@ function  NewTutorial ({user,trainers}) {
       e.preventDefault();
       setErrors([]);
       setIsLoading(true);
-      fetch("/tutorials", {
+      fetch("https://homefitback-production-9d5d.up.railway.app/tutorials", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
